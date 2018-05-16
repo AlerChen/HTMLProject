@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>合并单元格</title>
+
+</head>
+<body>
+
+
+<table align="center" width="500" cellpadding="0" cellspacing="0" border="1">
+
+    <tr align="center">
+
+        <td colspan="2">abc</td>
+        <td>abc</td>
+        <!--<td>abc</td>-->
+    </tr>
+
+    <tr align="center">
+        <td>abc</td>
+        <td>abc</td>
+        <td>abc</td>
+    </tr>
+
+    <tr align="center">
+        <td>abc</td>
+        <td>abc</td>
+        <td>abc</td>
+    </tr>
+
+</table>
+<p align="center">
+1. 先确认跨列合并 colspan 2. 先上后下 先左后右 3. 删除的个数
+</p>
+
+
+<table align="center" border="1" cellspacing="0" cellpadding="0" width="500">
+
+    <tr align="center">
+        <td rowspan="2">abc</td>
+        <td>abc</td>
+        <td>abc</td>
+    </tr>
+
+    <tr align="center">
+        <td>abc</td>
+        <td>abc</td>
+        <!--<td>abc</td>-->
+    </tr>
+
+    <tr align="center">
+        <td>abc</td>
+        <td>abc</td>
+        <td>abc</td>
+    </tr>
+
+</table>
+<p align="center">
+1.  先确认跨行合并 rowspan  2. 先上后下 先左后右 3. 删除的个数
+</p>
+
+
+<table align="center" border="1" cellpadding="0" cellspacing="0" width="500">
+
+    <tr align="center">
+        <td>abc</td>
+        <td rowspan="3">abc</td>
+        <td>abc</td>
+    </tr>
+
+    <tr align="center">
+        <td>abc</td>
+        <!--<td>abc</td>-->
+        <td>abc</td>
+    </tr>
+
+    <tr align="center">
+        <td>abc</td>
+        <!--<td>abc</td>-->
+        <td>abc</td>
+    </tr>
+
+</table>
+
+<br/>
+
+<table align="center" border="1" cellpadding="0" cellspacing="0" width="500">
+
+    <tr align="center">
+        <td colspan="3">abc</td>
+        <!--<td>abc</td>-->
+        <!--<td>abc</td>-->
+    </tr>
+
+    <tr align="center">
+        <td>abc</td>
+        <td rowspan="2">abc</td>
+        <td>abc</td>
+    </tr>
+
+    <tr align="center">
+        <td>abc</td>
+        <!--<td>abc</td>-->
+        <td>abc</td>
+    </tr>
+
+</table>
+
+<br/>
+
+<table align="center" border="1" cellpadding="0" cellspacing="0" width="500">
+
+    <tr align="center">
+        <td rowspan="2">abc</td>
+        <td>abc</td>
+        <td>abc</td>
+    </tr>
+
+    <tr align="center">
+        <!--<td>abc</td>-->
+        <td colspan="2">abc</td>
+        <!--<td>abc</td>-->
+    </tr>
+
+    <tr align="center">
+        <td colspan="3">abc</td>
+        <!--<td>abc</td>-->
+        <!--<td>abc</td>-->
+    </tr>
+
+</table>
+
+</body>
+</html>
