@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>子代后代选择器</title>
+
+
+    <style>
+
+        ul li a {
+            color: skyblue;
+        }
+
+        .father > li > a {
+            color: red;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <ul class="father">
+        <li>
+
+            <a>指定子代选择</a>
+
+            <ul>
+
+                <li>
+
+                    <a>后代选择</a><br>
+                    <a>后代选择</a><br>
+                    <a>后代选择</a><br>
+
+                </li>
+
+            </ul>
+
+        </li>
+    </ul>
+
+</body>
+</html>
