@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试题</title>
+
+    <style>
+
+        .nav,.siteNav {
+
+            font:14px "microsoft yahei";
+        }
+
+        /*子代选择器*/
+        .nav > ul > li > a {
+            color:lawngreen;
+        }
+
+        /*后代选择器*/
+        .nav a {
+            color: orange;
+        }
+
+        .siteNav a {
+            color: skyblue;
+        }
+
+        .siteNav-r a {
+            color: red;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="#">
+                    公司首页
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    公司产品
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    联系我们
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    公司首页
+                </a>
+            </li>
+            <li>
+                <ul>
+                    <li>
+                        <a href="#">公司邮箱</a>
+                    </li>
+                    <li>
+                        <a href="#">公司电话</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="siteNav">
+        <div>
+            <a>
+                左侧侧导航栏
+            </a>
+        </div>
+
+        <div class="siteNav-r">
+            <a href="#">
+                登录
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
