@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>权重</title>
+
+    <style>
+
+
+        #test {  /*id选择器权重  0,1,0,0 */
+
+            color: blue;
+        }
+
+        .test {  /*类选择器权重  0,0,1,0 */
+
+        }
+
+        div {  /*标签选择器权重  0,0,0,1 */
+
+
+            color: hotpink!important; /* important权重 ∞ 最高级 */
+        }
+
+        * {   /*全选选择器权重  0,0,0,0 */
+
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+</body>
+</html>
