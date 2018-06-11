@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>外边距塌陷</title>
+
+    <style>
+
+        .father {
+            width: 500px;
+            height: 500px;
+            background-color: pink;
+            overflow: hidden;
+        }
+
+        .son {
+            width: 200px;
+            height: 200px;
+            background-color: purple;
+            margin-top: 50px;
+            margin-left: 50px;
+
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="father">
+
+        <div class="son"></div>
+
+    </div>
+
+</body>
+</html>
