@@ -1,0 +1,29 @@
+
+
+    body {
+        height: 1000px;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        height: 100px;
+        background-color: #4c4c4c;
+    }
+
+    .header-left {
+        height: 100px;
+        width: 200px;
+        background-color: #0454a7;
+        float: left;
+    }
+
+    .header-right {
+        height: 100px;
+        width: 400px;
+        background-color: #009900;
+        float: right;
+    }
