@@ -53,3 +53,8 @@
         color: #2288f6;
 
     }
+
+    .banner {
+        height: 620px;
+        background: url("../images/banner.jpg") no-repeat top center;
+    }
