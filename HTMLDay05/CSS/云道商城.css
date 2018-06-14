@@ -9,9 +9,14 @@
         padding: 0;
     }
 
+    body {
+        background-color: #fafafa;
+    }
+
     .header {
         height: 100px;
         /*background-color: #4c4c4c;*/
+        background-color: #FFF;
     }
 
     .inner {
@@ -75,10 +80,19 @@
 
     .service-hd h3 {
 
-
+        width: 167px;
+        height: 46px;
+        margin: -20px auto 0;
     }
 
-
+    .service-hd p {
+        text-align: center;
+        font-size: 12px;
+        margin: 15px auto 0;
+        line-height: 26px;
+        color: #666;
+        width: 830px;
+    }
 
 
 
